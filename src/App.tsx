@@ -1,9 +1,7 @@
-import { useState } from 'react'
+import { TetrisGame } from './components/TetrisGame';
 
 function App() {
-  return (
-    <div></div>
-  )
+  return <TetrisGame />;
 }
 
-export default App 
+export default App;
